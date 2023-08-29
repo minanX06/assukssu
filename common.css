@@ -1,0 +1,135 @@
+#newsname{
+    font-family: 'Barriecito', cursive;
+    font-size: 50px;
+    margin: 0px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+    margin: 20px 30px 0px 30px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+#footer{
+    margin-top: 100px;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid #ebebea;
+}
+
+#copyright-bold{
+    font-family: 'Barriecito', cursive;
+    padding: 0px 3px;
+    color: #000;
+}
+
+.update{
+    margin: 20px 0px;
+}
+
+.right-border{
+    border-right: 3px solid rgb(193, 193, 193);
+}
+
+.headergroup{
+    box-sizing: border-box;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px 15px 0px 15px;
+}
+
+.headermenu{
+    display: flex;
+}
+
+.navitem{
+    position: relative;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 20px;
+}
+
+.footer-inner{
+    margin: 5px 80px 0px 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-left{
+    padding-top: 18px;
+    font-family: 'Barriecito', cursive;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+}
+
+.footer-title-small{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.footer-center{
+    width: 55%;
+    color: #555;
+}
+
+.footer-center-inner{
+    display: flex;
+    justify-content: left;
+    margin: 17px 0px;
+}
+
+.footer-content{
+    margin: 0px 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.footer-right{
+    width: 15%;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.special-title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline;
+}
+
+.special-person{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.special-person-inner{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.special-person-name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+body, h2, h3, h6{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}

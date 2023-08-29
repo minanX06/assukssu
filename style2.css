@@ -1,0 +1,86 @@
+#main{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+
+.main-left{
+    margin-left: 90px;
+    max-width: 800px;
+    width: 55%;
+}
+
+.main-right{
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 60px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+}
+
+.headline{
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+.headline-title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.article-type{
+    display: flex;
+    justify-content: left;
+}
+
+.article-type-font{
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 0px 0px 0px 5px;
+    vertical-align: top;
+}
+
+.article-info{
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6df;
+    color: rgb(130, 130, 130);
+}
+
+.article-image-align{
+    display:flex;
+    justify-content: center;
+}
+
+.article-image-desc{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: rgb(122, 120, 120);
+    font-size: 14px;
+}
+
+.article-image{
+    width: 80%;
+}
+
+.article-content-wrap{
+    margin-top: 30px;
+}
+
+.article-content{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+    margin: 0px 0px 50px 0px;
+}
+
+i{
+    margin-top: 1px;
+    height: 16px;
+}
